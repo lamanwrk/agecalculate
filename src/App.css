@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.box_wrp {
+  background-color: rgb(100, 100, 255);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .mini_box {
+    border: 3px solid #999;
+    width: 20.834vw;
+    padding: 2.0162vw;
+    div,
+    p {
+      font-size: 1.6vw;
+      margin-bottom: 15px;
+    }
+  }
+}
